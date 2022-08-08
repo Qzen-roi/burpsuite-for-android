@@ -3,6 +3,7 @@ This burpsuite is for android but u need to have  GUI of any linuxOS
 
 This is mainly made for rootless and Kali Nethunter
 
+Highly recommended to run it as a Root user 
 
 $ apt update 
 

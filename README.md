@@ -5,7 +5,8 @@ This is mainly made for rootless and Kali Nethunter
 
 ____________________________________________________________!
  
- Highly recommended to run it as a Root user              |
+ Highly recommended to run it as a Root user 
+ 
 ____________________________________________________________|
 
 $ apt update 

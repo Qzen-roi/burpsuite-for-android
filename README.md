@@ -3,6 +3,10 @@ This burpsuite is for android but u need to have  GUI of any linuxOS
 
 This is mainly made for rootless and Kali Nethunter
 
+burp-file-downloader is manual downloader which download's only jar file 
+burp-installer is auto running file this will does every thing which requires
+for installing it.
+
 ____________________________________________________________!
  
  Highly recommended to run it as a Root user 

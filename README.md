@@ -1,5 +1,5 @@
 # burpsuite-for-android
-This burpsuite is for android but u need to have  GUI of any linuxOS
+This burpsuite is for android but u need to have  GUI of your current linux
 
 This is mainly made for rootless and Kali Nethunter
 

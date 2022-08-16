@@ -3,10 +3,10 @@ This burpsuite is for android ARM,ARM64 both but u need to have  GUI of your cur
 
 This is mainly made for rootless and Kali Nethunter
 
-burp-file-downloader is manual downloader which download's only jar file 
 
-burp-installer is auto running file this does everything which requires
-for installing it.
+
+
+
 
 ____________________________________________________________!
  

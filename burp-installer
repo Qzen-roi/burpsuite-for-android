@@ -8,9 +8,9 @@ clear
     printf "${green}##    b#########bd|       ##           |    b    b                      ##\n"
     printf "${green}##    b#########bd|      #####         |    bbbbbb                      ##\n"
     printf "${green}##    bbbbbbbbbbbd|          #         |    b8d,                       ##\n"
-    printf "${green}##    bbbbbbbbbbbd|          ####>     |    b  99: �8   8  R r  ppp\     ##\n"
-    printf "${green}##    bbbbbbbbbbbd|            #       |    b   �9��8   8R   p   \    ##\n"
-    printf "${green}##     bbbbbbbbbbd|            #      //    b9999*� 88888©®®®  R    p>>>/    ##\n"
+    printf "${green}##    bbbbbbbbbbbd|          ####>     |    b  99: Â8   8  R r  ppp\     ##\n"
+    printf "${green}##    bbbbbbbbbbbd|            #       |    b   Â9®Â8   8R   p   \    ##\n"
+    printf "${green}##     bbbbbbbbbbd|            #      //    b9999*® 88888Â©Â®Â®Â®  R    p>>>/    ##\n"
     printf "${green}##       bbbbbbbbd|__________________//                        p        ##\n"
     printf "${green}##                                              Suite          p        ##\n"
     printf "${green}##                                                             p        ##\n"
@@ -43,7 +43,7 @@ cd $HOME
 
 echo "[+]################# Burpsuite Community Edition ####################[+]"
 apt install wget -y; cd /bin ; echo "java -jar /usr/share/burpsuite/burpsuite_c.jar" > burpsuite; chmod +x burpsuite ;
-cd /usr/share ; mkdir burpsuite; cd burpsuite; apt-get update && apt-get update --fix-missing ; apt install wget default-jdk -y; wget https://bitbucket.org/ranjitchamling/qzen-rai/downloads/burpsuite_c.jar ; cd /bin ; touch vncstart ; echo "vncserver -geometry 1920x1080" > vncstart ; touch vncstop ; echo "vncserver -kill :1" > vncstop ; chmod +x * ; cd ~ ;
+cd /usr/share ; mkdir burpsuite; cd burpsuite; apt-get update && apt-get update --fix-missing ; apt install wget default-jdk -y; wget  https://github.com/Qzen-roi/Rainonymous/raw/main/burpsuite.jar.xz; apt install xz-utils; xz -d burpsuite.jar.xz ; cd /bin ; touch vncstart ; echo "vncserver -geometry 1920x1080" > vncstart ; touch vncstop ; echo "vncserver -kill :1" > vncstop ; chmod +x * ; cd ~ ;
  cd /root/Desktop;
 echo "[Desktop Entry]" > burpsuite.desktop;echo "Version=1.0" >> burpsuite.desktop;echo "Type=Application"  >> burpsuite.desktop; echo "Name=Burpsuite" >> burpsuite.desktop;echo "Comment=" >> burpsuite.desktop;echo "Exec=/bin/burpsuite" >> burpsuite.desktop;echo "Icon=burp" >> burpsuite.desktop ;echo "Path=" >> burpsuite.desktop;echo "Terminal=false" >> burpsuite.desktop;echo "StartupNotify=false" >> burpsuite.desktop; chmod +x burpsuite.desktop;
  cd /home/kali/Desktop;
